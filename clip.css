@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: url("./clipboard-landing-page-master/images/bg-header-desktop.png");
+}
+
+header img{
+    margin-left:45%;
+    margin-right: 45%;
+    margin-top: 70px;
+margin-bottom: 50px;
+
+
+}
+
+h1,p,h2{
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+p{
+    color: hsl(210, 10%, 33%)
+}
+
+h2{
+    text-align: center;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    
+    border-radius: 20px;
+    height: 47px;
+    width:auto;
+    padding: 10px 40px;
+    color: white;
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-align:left;}
+.btn1{
+    margin-right: 2%;
+    background-color: hsl(171, 66%, 44%);
+    border: 1px solid hsl(171, 66%, 44%);
+    cursor: pointer;
+}
+
+.btn2{
+    background-color: hsl(233, 100%, 69%);
+    border: 1px solid hsl(233, 100%, 69%);
+    cursor: pointer;
+}
+
+.actions{
+    display: flex;
+}
+
+.actions p {
+    text-align: left;
+    
+}
+
+.actions img{
+    width:45%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: auto;
+}
+
+.actions aside{
+    width: 30%;
+    margin-right: 5%;
+}
+
+.access img{
+    width: 50%;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+.workflow aside{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.st{
+    width: 30%;
+    
+}
+.st img{
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.nd{
+    width:30%;
+}
+
+.nd img{
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.rd{
+    width:30%;
+}
+
+.rd img{
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.associates{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.associates img {
+    width: 12%;
+}
+
+.buttons2{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: hsl(201, 11%, 66%);
+    
+}
+
+footer nav{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 30%;
+    margin-top: 30px;
+
+}
+
+nav p{
+    font-size: 1.5rem;
+}
+
+.logo{
+    width: 8%;
+    height: auto;
+    margin-top: 30px;
+}
+
+.icon{
+    margin-top: 10px;
+}
+
+
+
+
+@media screen and (max-width: 840px){
+ button{
+     font-size: 0.7rem;
+     height: auto;
+     width: auto;
+
+ }
+
+ nav p{
+     font-size: 1rem;
+ }
+}
+
+@media screen and (max-width: 768px){
+    .actions img{
+        width:60%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        height: auto;
+    }
+    
+    .actions aside{
+        width: 30%;
+          
+    }
+}
+
+@media screen and (max-width: 400px){
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    footer{
+        display: block;
+        
+    }
+
+    .actions{
+        display: block !important;
+    }
+
+    .actions img{
+    width: 100%;
+    }
+    
+    .actions aside{
+        width: 100%;
+}
+.workflow aside{
+    display: block !important;
+
+    
+
+}
+
+.nd{
+    width:100%;
+}
+
+
+
+.rd{
+    width:100%;}
+
+    .st{
+        width: 100%;
+}
+
+.associates{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.associates img{
+    width: 70%;
+    margin-bottom: 50px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+}
+
